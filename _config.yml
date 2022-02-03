@@ -22,7 +22,7 @@ collections  :
   v_1_en     :
     permalink: '/:collection/:path/'
     output   :  true
-  v_2_ko     :
+  v_1_ko     :
     permalink: '/:collection/:path/'
     output   :  true
 
