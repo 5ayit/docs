@@ -1,0 +1,30 @@
+:root {
+  --_jc_main: #336666;
+  --_jc_safe: #006633;
+  --_jc_warn: #FF9933;
+  --_jc_bulb: #EEEEEE;
+  --_jc_void: #FFFFFF;
+  --_jc_mute: #CCCCCC;
+  --_jc_help: #003333;
+  --_jc_info: #669999;
+  --_jc_risk: #990000;
+  --_jc_dark: #111111;
+  --_jc_full: #000000;
+}
+
+a                                           { color: var( --_jc_main ); }
+a .icon                                     { color: var( --_jc_main ); }
+.site-header       div                      { color: var( --_jc_main ); }
+.site-header:hover div                      { color: var( --_jc_help ); }
+.nav-list .nav-list-item a                  { color: var( --_jc_main ); }
+.nav-list .nav-list-item .nav-list-expander { color: var( --_jc_main ); }
+
+                            .site-title:hover,
+.nav-list .nav-list-item .nav-list-link:hover,
+.nav-list .nav-list-item .nav-list-link.active { background-image: linear-gradient( to left, #E3E6E6, rgba( 243, 246, 246, 100 ) 75% ); }
+.site-button:hover                             { background-color: #E3E6E6; }
+.side-bar                                      { background-color: #F3F6F6; }
+::selection                                    { background-color: var( --_jc_main ); }
+
+.main-content-wrap                  { padding-left: 24px; padding-right: 24px; }
+div.highlighter-rouge:first-of-type { margin-top  :  4px; }
