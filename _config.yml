@@ -18,20 +18,20 @@ aux_links:
 #     permalink: "/:collection/:path/"
 #     output: true
 
-collections:
-  v_1_en:
-    permalink: "/:collection/:path/"
-    output   : true
-  v_2_ko:
-    permalink: "/:collection/:path/"
-    output   : true
+collections  :
+  v_1_en     :
+    permalink: '/:collection/:path/'
+    output   :  true
+  v_2_ko     :
+    permalink: '/:collection/:path/'
+    output   :  true
 
 just_the_docs:
   collections:
-    v_1_en:
-      name: Version 1
-    v_1_ko:
-      name: 버전 1
+    v_1_en   :
+      name   : 'Version 1'
+    v_1_ko   :
+      name   : '버전 1'
 
 
 
