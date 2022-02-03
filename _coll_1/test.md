@@ -1,5 +1,5 @@
 ---
 layout   : 'default'
 title    : 'Test'
-nav_order: `9999
+nav_order:  9999
 ---
