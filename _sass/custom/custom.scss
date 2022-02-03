@@ -12,12 +12,13 @@
   --_jc_full: #000000;
 }
 
-a                                           { color: var( --_jc_main ); }
-a .icon                                     { color: var( --_jc_main ); }
-.site-header       div                      { color: var( --_jc_main ); }
-.site-header:hover div                      { color: var( --_jc_help ); }
-.nav-list .nav-list-item a                  { color: var( --_jc_main ); }
-.nav-list .nav-list-item .nav-list-expander { color: var( --_jc_main ); }
+a                                                { color: var( --_jc_main ); }
+a .icon                                          { color: var( --_jc_main ); }
+.site-header       div                           { color: var( --_jc_main ); }
+.site-header:hover div                           { color: var( --_jc_help ); }
+.nav-list .nav-list-item a                       { color: var( --_jc_main ); }
+.nav-list .nav-list-item .nav-list-expander      { color: var( --_jc_main ); }
+.search-input:focus + .search-label .search-icon { color: var( --_jc_main ); }
 
                             .site-title:hover,
 .nav-list .nav-list-item .nav-list-link:hover,
