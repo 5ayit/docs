@@ -24,6 +24,12 @@ collections:
   docs:
     permalink: "/:collection/:path/"
     output: true
+  coll_1:
+    permalink: "/:collection/:path/"
+    output: true
+  coll_2:
+    permalink: "/:collection/:path/"
+    output: true
 
 just_the_docs:
   # Define which collections are used in just-the-docs
@@ -37,6 +43,14 @@ just_the_docs:
       nav_exclude: false
       # Exclude the collection from the search
       # Supports true or false (default)
+      search_exclude: false
+    coll_1:
+      name: Coll_1
+      nav_exclude: false
+      search_exclude: false
+    coll_2:
+      name: Coll_2
+      nav_exclude: true
       search_exclude: false
 
 
