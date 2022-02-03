@@ -10,6 +10,14 @@ aux_links:
   "5ay.it":
     - "https://5ay.it"
 
+collections:
+  coll_1:
+    permalink: "/:collection/:path/"
+    output: true
+  coll_2:
+    permalink: "/:collection/:path/"
+    output: true
+
 
 
 # # Welcome to Jekyll!
