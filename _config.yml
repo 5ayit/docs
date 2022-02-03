@@ -18,36 +18,20 @@ aux_links:
 #     permalink: "/:collection/:path/"
 #     output: true
 
-# Define Jekyll collections
 collections:
-  # Define a collection named "docs", its documents reside in the "_docs" directory
-  docs:
+  v_1_en:
     permalink: "/:collection/:path/"
-    output: true
-  coll_1:
+    output   : true
+  v_2_ko:
     permalink: "/:collection/:path/"
-    output: true
-  coll_2:
-    permalink: "/:collection/:path/"
-    output: true
+    output   : true
 
 just_the_docs:
-  # Define which collections are used in just-the-docs
   collections:
-    # Reference the "docs" collection
-    docs:
-      # Give the collection a name
-      name: Documentation
-      # Exclude the collection from the navigation
-      # Supports true or false (default)
-      nav_exclude: false
-      # Exclude the collection from the search
-      # Supports true or false (default)
-      search_exclude: false
-    coll_1:
-      name: Coll_1
-    coll_2:
-      name: Coll_2
+    v_1_en:
+      name: Version 1
+    v_1_ko:
+      name: 버전 1
 
 
 
