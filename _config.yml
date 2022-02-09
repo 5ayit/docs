@@ -29,9 +29,9 @@ collections  :
 just_the_docs:
   collections:
     v_1_en   :
-      name   : 'Version 1'
+      name   : 'v_1_en'
     v_1_ko   :
-      name   : '버전 1'
+      name   : 'v_1_ko'
 
 
 
