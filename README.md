@@ -6,4 +6,4 @@
 
 # Docs of 5ay.it
 
-This repository is for the docs of 5ay.it on GitHub Pages, and you can access it through https://dkcs.5ay.it.
+This repository is for the docs of 5ay.it on GitHub Pages, and you can access it through https://docs.5ay.it.
