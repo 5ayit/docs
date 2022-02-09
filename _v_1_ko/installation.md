@@ -1,13 +1,9 @@
 ---
 layout   : 'default'
-title    : 'Index'
+title    : 'Installation'
 nav_order:  0
 ---
 
-# Quick Start
-
-...
-
-# Index
+# Installation
 
 This document is not ready yet.

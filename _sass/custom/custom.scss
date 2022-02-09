@@ -14,6 +14,7 @@
 
 a                                                { color: var( --_jc_main ); }
 a .icon                                          { color: var( --_jc_main ); }
+.btn                                             { color: var( --_jc_info ); }
 .site-header       div                           { color: var( --_jc_main ); }
 .site-header:hover div                           { color: var( --_jc_help ); }
 .nav-list .nav-list-item a                       { color: var( --_jc_main ); }
@@ -29,3 +30,4 @@ a .icon                                          { color: var( --_jc_main ); }
 
 .main-content-wrap                  { padding-left: 24px; padding-right: 24px; }
 div.highlighter-rouge:first-of-type { margin-top  :  4px; }
+

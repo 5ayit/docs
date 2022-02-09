@@ -1,13 +1,9 @@
 ---
 layout   : 'default'
-title    : 'Index'
+title    : 'Plug-in'
 nav_order:  0
 ---
 
-# Quick Start
-
-...
-
-# Index
+# Plug-in
 
 This document is not ready yet.
