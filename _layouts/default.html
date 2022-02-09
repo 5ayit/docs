@@ -208,11 +208,9 @@ layout: table_wrappers
 
     let path = window.location.pathname.split( '/' );
 
-    if( ! path[ 1 ] ) { $('.nav-category').next().remove();
-                        $('.nav-category')       .remove(); }
-
-    else $('.nav-category').reverse().each( K => { if( $('.nav-category').eq( K ).html() != path[ 1 ] ) { $('.nav-category').eq( K ).next().remove();
-                                                                                                          $('.nav-category').eq( K )       .remove(); } } );
+    if( ! path[ 1 ] )                                                                                                  $('.nav-category')        .next().remove();
+    else              $('.nav-category').reverse().each( K => { if( $('.nav-category').eq( K ).html() != path[ 1 ] ) { $('.nav-category').eq( K ).next().remove(); } } );
+                                                                                                                       $('.nav-category')               .remove();
 
  } ) </script>
 
