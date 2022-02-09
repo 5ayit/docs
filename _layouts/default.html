@@ -208,12 +208,11 @@ layout: table_wrappers
     /* 투두 // 콜렉션 페이지 >>> 좌측 인덱스 해당 항목 보임 */
 
     let path = window.location.pathname.split( '/' );
-    if( path[ 1 ] ) {
-      $(      '.nav-category').each( K => {
-        if( $('.nav-category').eq  ( K ).html() != path[ 1 ] ) { $('.nav-category').eq( K ).next().remove();
-                                                                 $('.nav-category').eq( K )       .remove(); }
-      } );
-    } /* if */
+
+    $(      '.nav-category').each( K => {
+      if( $('.nav-category').eq  ( K ).html() != path[ 1 ] ) { $('.nav-category').eq( K ).next().remove();
+                                                                $('.nav-category').eq( K )       .remove(); }
+    } );
 
  } ) </script>
 
