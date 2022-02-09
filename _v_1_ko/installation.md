@@ -1,9 +1,9 @@
 ---
 layout   : 'default'
-title    : 'Installation'
+title    : '설치'
 nav_order:  0
 ---
 
-# Installation
+# 설치
 
 This document is not ready yet.
