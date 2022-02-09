@@ -204,16 +204,13 @@ layout: table_wrappers
 
   <script> $( () => {
 
-    /* 투두 // 메인   페이지 >>> 좌측 인덱스 모든 항목 숨김 */
-    /* 투두 // 콜렉션 페이지 >>> 좌측 인덱스 해당 항목 보임 */
-
     let path = window.location.pathname.split( '/' );
 
-    $(      '.nav-category').each( K => {
-      if( $('.nav-category').eq  ( K ).html() != path[ 1 ] )
-        $(  '.nav-category').eq  ( K )       .remove();
-      $(    '.nav-category').eq  ( K ).next().remove();
-    } );
+    if( ! path[ 1 ] ) { $( '.nav-category').next().remove();
+                        $( '.nav-category')       .remove(); }
+
+    else $('.nav-category').reverse().each( K => { if( $('.nav-category').eq( K ).html() != path[ 1 ] ) { $('.nav-category').eq( K ).next().remove();
+                                                                                                          $('.nav-category').eq( K )       .remove(); } } );
 
  } ) </script>
 
