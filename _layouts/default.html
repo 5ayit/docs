@@ -210,8 +210,9 @@ layout: table_wrappers
     let path = window.location.pathname.split( '/' );
 
     $(      '.nav-category').each( K => {
-      if( $('.nav-category').eq  ( K ).html() != path[ 1 ] ) { $('.nav-category').eq( K ).next().remove();
-                                                                $('.nav-category').eq( K )       .remove(); }
+      if( $('.nav-category').eq  ( K ).html() != path[ 1 ] )
+        $(  '.nav-category').eq  ( K )       .remove();
+      $(    '.nav-category').eq  ( K ).next().remove();
     } );
 
  } ) </script>
