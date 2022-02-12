@@ -1,7 +1,7 @@
 ---
 layout     : 'default'
-title      : 'User Guide · 5ay.it'
-description: 'User Guide · 5ay.it'
+title      : 'Docs · 5ay.it'
+description: 'User Guide of 5ay.it'
 nav_order  :  0
 permalink  : /
 ---
