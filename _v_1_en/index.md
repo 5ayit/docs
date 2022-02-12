@@ -13,7 +13,7 @@ If you want to try 5ay.it comment system on your website, you only need to copy 
 
 &lt;script src="//5ay.it/now_1.js">&lt;/script>
 
-&lt;/body>...
+&lt;/body> ...
 
 ```
 
