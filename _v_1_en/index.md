@@ -11,7 +11,7 @@ If you want to try 5ay.it comment system on your website, you only need to copy 
 ```
 ... <body>
 
-<script src="//5ay.it/now_1.js"></script>
+  <script src="//5ay.it/now_1.js"></script>
 
 </body> ...
 ```

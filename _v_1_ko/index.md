@@ -11,7 +11,7 @@ nav_order:  0
 ```
 ... <body>
 
-<script src="//5ay.it/now_1.js"></script>
+  <script src="//5ay.it/now_1.js"></script>
 
 </body> ...
 ```
