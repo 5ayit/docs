@@ -6,4 +6,4 @@ nav_order:  1
 
 # Installation
 
-This document is not ready yet.
+We're sorry, this document is completely written yet.
