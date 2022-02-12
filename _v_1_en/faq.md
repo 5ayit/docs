@@ -1,9 +1,9 @@
 ---
 layout   : 'default'
-title    : 'Frequently Asked Questions'
+title    : 'Frequently Asked Question'
 nav_order:  2
 ---
 
-# Frequently Asked Questions
+# Frequently Asked Question
 
 ...
