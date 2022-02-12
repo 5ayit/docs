@@ -159,17 +159,19 @@ layout: table_wrappers
 
 
 
-          <a href="" class="_jc_link_lang" id="_jc_link_lang_en">English</a> <span class="mx-3">·</span>
-          <a href="" class="_jc_link_lang" id="_jc_link_lang_ko">한국어</a>
-          <script> $( () => {
-            let T1    = location.pathname;
-            let T2    = T1      .split    ( '/'                   )       ; if( T2.length < 3 ) $('._jc_link_lang').remove();
-            let T3_en = T2[ 1 ] .substring( 0, T2[ 1 ].length - 2 ) + 'en';
-            let T3_ko = T2[ 1 ] .substring( 0, T2[ 1 ].length - 2 ) + 'ko';
-            $('#_jc_link_lang_en').attr( 'href', T1.replace( T2[ 1 ], T3_en ) );
-            $('#_jc_link_lang_ko').attr( 'href', T1.replace( T2[ 1 ], T3_ko ) );
-          } ) </script>
-          <hr class="_jc_link_lang">
+          <span         id="_jc_link_lang">
+            <a href="#" id="_jc_link_lang_en">English</a> <span class="mx-3">·</span>
+            <a href="#" id="_jc_link_lang_ko">한국어</a>
+            <script> $( () => {
+              let T1    = location.pathname;
+              let T2    = T1      .split    ( '/'                   )       ; if( T2.length < 3 ) $('#_jc_link_lang').remove();
+              let T3_en = T2[ 1 ] .substring( 0, T2[ 1 ].length - 2 ) + 'en';
+              let T3_ko = T2[ 1 ] .substring( 0, T2[ 1 ].length - 2 ) + 'ko';
+              $('#_jc_link_lang_en').attr( 'href', T1.replace( T2[ 1 ], T3_en ) );
+              $('#_jc_link_lang_ko').attr( 'href', T1.replace( T2[ 1 ], T3_ko ) );
+            } ) </script>
+            <hr>
+          </span>
 
 
 
