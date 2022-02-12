@@ -6,12 +6,10 @@ nav_order  :  0
 permalink  : /
 ---
 
-# User Guide
-
-## English
+# User Guide in English
 Please select the documents that you're looking for.<br>
 [ User Guide of 5ay.it Version 1 in Engish ]( /v_1_en/index ){: .mb-3 .btn .fw-bold }<br>
 
-## 한국어
+# 한국어 사용자 가이드
 찾고 있는 문서를 선택하십시오.<br>
 [ 한국어 5ay.it 유저 가이드 ]( /v_1_ko/index ){: .mb-3 .btn .fw-bold }<br>
