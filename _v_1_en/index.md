@@ -21,7 +21,7 @@ Also, if you want to use 3rd-party plug-ins for your Wordpress (or any else) web
 
 # Index
 
-We're sorry, this document is completely written yet.
+We're sorry, this document is not completely written yet.
 
 - <a href="/v_1_en/installation">Installation</a>
 - <a href="/v_1_en/plug-in"     >Plug-in</a>

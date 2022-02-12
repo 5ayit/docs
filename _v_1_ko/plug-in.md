@@ -6,4 +6,4 @@ nav_order:  3
 
 # 플러그인
 
-This document is not ready yet.
+죄송합니다. 이 문서는 아직 완전히 작성되지 않았습니다.
