@@ -1,7 +1,7 @@
 ---
 layout   : 'default'
 title    : '플러그인'
-nav_order:  0
+nav_order:  3
 ---
 
 # 플러그인

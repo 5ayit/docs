@@ -1,7 +1,7 @@
 ---
 layout   : 'default'
 title    : 'Plug-in'
-nav_order:  0
+nav_order:  3
 ---
 
 # Plug-in

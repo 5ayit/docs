@@ -1,7 +1,7 @@
 ---
 layout   : 'default'
 title    : '자주 묻는 질문'
-nav_order:  1
+nav_order:  2
 ---
 
 # 자주 묻는 질문

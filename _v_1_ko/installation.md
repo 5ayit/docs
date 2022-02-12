@@ -1,7 +1,7 @@
 ---
 layout   : 'default'
 title    : '설치'
-nav_order:  0
+nav_order:  1
 ---
 
 # 설치
