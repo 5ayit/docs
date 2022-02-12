@@ -1,6 +1,6 @@
 ---
 layout   : 'default'
-title    : 'Index'
+title    : 'Quick Start & Index'
 nav_order:  0
 ---
 

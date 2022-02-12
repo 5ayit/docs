@@ -1,6 +1,6 @@
 ---
 layout   : 'default'
-title    : '목차'
+title    : ' 빠른 시작 & 목차'
 nav_order:  0
 ---
 
