@@ -156,6 +156,22 @@ layout: table_wrappers
         {% endcapture %}
         {% if footer_custom != "" or site.last_edit_timestamp or site.gh_edit_link %}
           <hr>
+
+
+
+          <a href="" id="_jc_link_lang_en">English</a> ·
+          <a href="" id="_jc_link_lang_ko">한국어</a>
+          <script> $( () => {
+            let T1    = location.pathname.split    (   '/' )
+            let T2_en = T1[ 1 ]          .substring( 0, -2 ) + 'en'
+            let T2_ko = T1[ 1 ]          .substring( 0, -2 ) + 'ko'
+            $('#_jc_link_lang_en').attr( 'href', T1.replace( T1[ 1 ], $T2_en ) )
+            $('#_jc_link_lang_ko').attr( 'href', T1.replace( T1[ 1 ], $T2_ko ) )
+          } ) </script>
+          <hr>
+
+
+
           <footer>
             {% if site.back_to_top %}
               <p><a href="#top" id="back-to-top">{{ site.back_to_top_text }}</a></p>
