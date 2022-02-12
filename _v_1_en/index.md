@@ -4,7 +4,7 @@ title    : 'Index'
 nav_order:  0
 ---
 
-## Quick Start
+# Quick Start
 
 If you want to try 5ay.it comment system on your website, you only need to copy and paste `<script src="//5ay.it/now_1.js"></script>` in your `<body>` tag, where you want to place the comment component, without any registration procedure at all.
 
